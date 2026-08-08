@@ -1,0 +1,67 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+ENV/
+*.venv
+
+# --- Jupyter / Notebooks ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Environment / secrets ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- Modèles / checkpoints / poids entraînés ---
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.onnx
+*.bin
+saved_model/
+checkpoints/
+models/
+runs/
+logs/
+mlruns/
+
+# --- Embeddings pré-entraînés (GloVe, Word2Vec, etc.) ---
+*.vec
+*.kv
+glove*/
+*.gz
+
+# --- Éditeurs / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Tests / couverture ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- Divers ---
+*.log
+.cache/
