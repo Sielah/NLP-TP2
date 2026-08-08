@@ -24,17 +24,6 @@ ENV/
 *.pem
 *.key
 
-# --- Data & datasets (souvent volumineux, à ne pas versionner) ---
-data/
-*.csv
-*.tsv
-*.json
-*.jsonl
-*.parquet
-*.zip
-*.tar.gz
-*.7z
-
 # --- Modèles / checkpoints / poids entraînés ---
 *.h5
 *.hdf5
